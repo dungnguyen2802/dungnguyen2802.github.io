@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+i.fas.fa-poo {
+    color: #690000;
+}
+
+i.fas.fa-dove {
+    color: red;
+}
+
+form.form-add {
+    width: 600px;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+input.input-add, input.input-edit {
+    width: 85%;
+    padding: 0px 16px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ededed;
+    border: 1px solid #bebebe;
+    outline: none;
+}
+
+.cmt:hover .icons {
+    display: inline-block;
+}
+
+i.fas.fa-trash.icon-del {
+    color: #ff6c6c;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+i.fas.fa-pen.icon-edit {
+    color: gray;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.icons {
+    display: inline-block;
+    font-size: 14px;
+    display: none;
+}
+
+span.ten {
+    font-weight: 700;
+    color: #385898;
+    margin-right: 4px;
+}
+
+p.text {
+    background-color: #efefef;
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 21px;
+}
+
+body {
+    font-family: Segoe UI;
+}
+
+img.avt {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 12px;
+}
+
+.cmt {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.khoi-cmt {
+    width: 600px;
+    margin: auto;
+}
+.cmt-temp, .form-edit-temp  {
+    display: none;
+}
+.icon-del-click{
+    opacity: 0;
+}
